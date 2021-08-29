@@ -1,5 +1,5 @@
 import DatepickerCore from './index';
-import { MonthTails, Slice } from '../types/types';
+import { MonthTails, Slice } from './types/types';
 
 describe('Testing DatepickerCore methods', () => {
   const datepickerGlobal: DatepickerCore = new DatepickerCore();

@@ -7,7 +7,7 @@ import {
   Slice,
   Slices,
   Week,
-} from '../types/types';
+} from './types/types';
 
 const defaultOptions: Options = {
   selectingRange: false
