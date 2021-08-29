@@ -1,5 +1,5 @@
 import DatepickerCore from './index';
-import { MonthTails, Slice } from './types';
+import { MonthTails, Slice } from '../types/types';
 
 describe('Testing DatepickerCore methods', () => {
   const datepickerGlobal: DatepickerCore = new DatepickerCore();
@@ -52,6 +52,7 @@ describe('Testing DatepickerCore methods', () => {
     };
     result = datepickerGlobal.getMonthTails(1, 2021);
     expect(result).toStrictEqual(monthTails);
+    
   });
 });
 

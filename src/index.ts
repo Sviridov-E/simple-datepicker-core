@@ -7,7 +7,7 @@ import {
   Slice,
   Slices,
   Week,
-} from './types';
+} from '../types/types';
 
 const defaultOptions: Options = {
   selectingRange: false
@@ -132,9 +132,11 @@ class DatepickerCore {
       ++next.year;
       next.month -= 12;
     }
+    let prevSlice = this.getMonthSlice(prev.month, prev.year);
+    let nextSlice = this.getMonthSlice(next.month, next.year);
     return {
-      prev: this.getMonthSlice(prev.month, prev.year).pop() ?? new Array(7),
-      next: this.getMonthSlice(next.month, next.year)[0],
+      prev: prevSlice[prevSlice.length - 1] ?? new Array(7),
+      next: nextSlice[0],
     };
   }
 
