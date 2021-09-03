@@ -25,11 +25,6 @@ class DatepickerCore {
     this.shownDate = this.initialDate;
     this.slices = {};
     this.options = options;
-    // Binding methods //////////////////////
-    /*this.getMonthSlice = this.getMonthSlice.bind(this);
-    this.cleanSlices = this.cleanSlices.bind(this);
-    this._calcMonthSlice = this._calcMonthSlice.bind(this);*/
-    /////////////////////////////////////////
   }
 
   // Seters ////////////////////////////////
