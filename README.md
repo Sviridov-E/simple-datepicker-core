@@ -1,7 +1,7 @@
 # Simple Datepicker 
 [![npm](https://img.shields.io/npm/v/@segor/simple-datepicker?label=npm)](https://www.npmjs.com/package/@segor/simple-datepicker) [![GitHub package.json version](https://img.shields.io/github/package-json/v/Sviridov-e/simple-datepicker-core?color=green&label=github)](https://github.com/Sviridov-E/simple-datepicker-core)
 
-Данная библиотека написана в качестве вспомогательного инструмента при создании комопнента выбора даты. 
+Данная библиотека написана в качестве вспомогательного инструмента при создании компонента выбора даты. 
 
 ## Установка
 ```bash
